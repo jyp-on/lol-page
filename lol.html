@@ -30,37 +30,37 @@
 
 <body bgcolor="#E6E6E6">
     <header>
-        <ul>
+        <ul id="menu"></ul>
             <li><a href="lol.html">Home</a></li>
             <li><a href="news.html">News</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </header>
     <span id="button" style="float: left">
-        <p class="a">Color toggle</p>
-        <p class="b" hidden>marin</p>
-        <p class="c" hidden>green-sian</p>
-    </span>
+            <p class="a">Color toggle</p>
+            <p class="b" hidden>| marin </p>
+            <p class="c" hidden>| green-sian|</p>
+        </span>
 
     <a href="signup.html"><button>회원가입</button></a>
     <form div id="login" onsubmit="return validate();">
-        <div style="text-align:right" method="post">
-            <p>
-                <label for="id_txt"><strong>ID</strong></label>
-                <input id="id" type="text" name="id">
-                <br>
-                <label for="password"><strong>PASSWORD</strong></label>
-                <input id="pw" type="password" name="pwd">
-                <br>
-                <input type="submit">
-            </p>
-        </div>
+        <span style="text-align:right" method="post">
+
+            <label for="id_txt"><strong>ID</strong></label>
+            <input id="id" type="text" name="id">
+            <br>
+            <label for="password"><strong>PASSWORD</strong></label>
+            <input id="pw" type="password" name="pwd">
+            <br>
+            <input type="submit">
+
+        </span>
     </form>
 
 
     <section class="container">
         <nav>
-            <ul>
+            <ul id="navul">
                 <li class="nav" style="font-size:4rem">목차</li>
                 <li class="top" hidden><a href="top.html">탑</a></li>
                 <li class="mid" hidden><a href="mid.html">미드</a></li>
