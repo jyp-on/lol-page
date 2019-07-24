@@ -1,27 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Monteserrat:500');
-header{ 
+
+header {
     display: flex;
-    flex-direction : row;
-    font-family: "Montserrat", sans-serif;
+    flex-direction: row;
     box-sizing: border-box;
-    margin: 0;
- 
-    background-color: #24252A;
-    
-    padding: 30px 10px;
+    border-radius: 3rem;
+    background-color: rgb(6, 142, 221);
+    padding: 30px 10%;
 }
-#menu{
-    float: right
-    
-    font-weight: 500;
-    font-size: 16px;
-    color: #edf0f1;
-    text-decoration: none;
-    
+header img{
+    width: 100px;
 }
-#menu li{
-    border-color: none;
-    align-items: right;
+#menu {
+    font-family: "Montserrat", sans-serif;
+}
+.headline a:hover{
+    border-bottom-color: #04B4AE;
+}
+.headline a {
+    font-size: 3rem;
+    list-style: none;
+    color:white;
+    border-bottom: 3px solid black;
+
+}
+li{
+    list-style: none;
+}
+#menu li {
+    border-bottom-color: black;
+    list-style-type: none;
+}
+
+li:hover {
+    border-bottom-color: #04B4AE;
+}
+
+#menu li:hover {
+    border-bottom-color: white;
+
 }
 
 .container {
@@ -164,7 +181,7 @@ nav li {
 }
 
 a {
-    font-size: 3rem;
+    font-size: 2rem;
     color: black;
     text-decoration: none;
 }
@@ -234,7 +251,7 @@ h2 {
 
 button {
     border: 5px black;
-    float: 
+    float:
 }
 
 form {
