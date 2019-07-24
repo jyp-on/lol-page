@@ -35,7 +35,7 @@ $('.b').click(function () {
 
 })
 $('.c').click(function () {
-    $('body').css("background-color", "#00ffa8");
+    $('body').css("background-color", "gray");
 
 })
 //목차 토글
